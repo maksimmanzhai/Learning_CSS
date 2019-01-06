@@ -19,3 +19,8 @@ p strong em, p em strong {
   font-weight: normal;
   font-style: normal;
 }
+p strong em, p em strong {
+  font-family: PTSansBoldItalic;
+  font-weight: normal;
+  font-style: normal;
+}
