@@ -1,0 +1,21 @@
+p {
+  font-family: PTSansRegular;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: normal;
+}
+p em {
+  font-family: PTSansItalic;
+  font-style: normal;
+  font-weight: normal;
+}
+p strong {
+  font-family: PTSansBold;
+  font-style: normal;
+  font-weight: normal;
+}
+p strong em, p em strong {
+  font-family: PTSansBoldItalic;
+  font-weight: normal;
+  font-style: normal;
+}
