@@ -49,3 +49,9 @@ body {
 	max-width: 800px;
 	margin: 0 auto;
 }
+
+h1 {
+	font-size: 3em;
+	font-family: "Arial Black", Arial, sans-serif;
+	margin-bottom: 15px;
+}
