@@ -21,7 +21,7 @@ ol {
 }
 ul {
 	padding-left: 1.4em;
-	list-style: square;
+	list-style: circle;
 }
 table {
 	border-collapse: collapse;
@@ -29,6 +29,12 @@ table {
 } 
 /* конец кода сброса стилей браузера */
 .main {
-	/*font-family: 'Staatliches', cursive;*/
-	font-family: 'Montserrat', sans-serif;
+	width: 800px;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+}
+
+ul, ol {
+	padding-left: 0;
+	margin-left: 0;
 }
