@@ -86,3 +86,27 @@ h2 {
   margin-top: 0;
   padding: 0;
 }
+
+p {
+  color: grey;
+  line-height: 1.5;
+  margin-left: 150px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  color: red;
+  line-height: 1.5;
+  margin-left: 150px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  float: none;
+  font-family: Helvetica;
+  text-transform: small-caps;
+  font-style: italic;
+  border: 1px dotted red;
+  border-top: 20px solid red;
+}
+
+/*255*/
