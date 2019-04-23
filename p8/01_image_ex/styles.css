@@ -60,7 +60,13 @@ p {
 }
 /* пользовательские стили  */
 
-
+img.figure {
+	float: right;
+	margin: 10px;
+	border: 1px solid #666;
+	background-color: #ccc;
+	padding: 10px;
+}
 
 
 
