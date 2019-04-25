@@ -34,6 +34,11 @@ table {
 	margin-right: auto;
 	margin-left: auto;
     overflow: hidden; /* выравнивание */
+	background-color: #fff;
+	background-image: url(images/bg_main.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+
 }
 
 .main {
@@ -68,9 +73,13 @@ table {
 }
 
 .main h2 {
-	font: 24px Tahoma, Geneva, sans-serif;
+  font: 24px Tahoma, Geneva, sans-serif;
 	margin-bottom: 15px;
 	font-family: Tahoma, Geneva, sans-serif;
+	background-image: url(images/underline.png);
+  background-repeat: no-repeat;
+	background-position: left bottom;
+  padding-bottom: 7px;
 }
 .main p {
 	font: 14px Tahoma, Geneva, sans-serif;
@@ -93,11 +102,18 @@ table {
 
 /* пользовательские стили  */
 
+html {
+	height: 100%;
+	background-image: linear-gradient(to bottom, rgb(176,194,213), white 700px);
+}
 
+.banner {
+	margin-top: 48px;
+}
 
-
-
-
+.announcement {
+	margin-top: 115px;
+}
 
 
 
