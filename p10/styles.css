@@ -96,3 +96,22 @@ nav a:hover {
   -ms-transform: scale(1.5);
   transform: scale(1.5);
 }
+
+@-webkit-keyframes logo {
+  from {
+    -webkit-transform: rotate(0) scale(.5);
+    left: 120%;
+  }
+  50% {
+    -webkit-transform: rotate(-720deg) scale(.5);
+    left: 0;
+  }
+  to {
+    -webkit-transform: rotate(0) scale(1);
+  }
+}
+
+.logo {
+  -webkit-animation: logo 3s;
+  animation: logo 3s;
+}
