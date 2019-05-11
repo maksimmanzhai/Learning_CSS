@@ -155,3 +155,8 @@ footer a {
 footer {
   clear: both;
 }
+
+.pageWrapper {
+  width: 960px;
+  margin: 0 auto;
+}
