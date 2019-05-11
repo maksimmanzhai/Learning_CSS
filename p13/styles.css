@@ -128,3 +128,12 @@ footer a {
   color: white;
 }
 /* стили из практикума главы 13  */
+
+.sidebar1 {
+  float: left;
+  width: 20%;
+}
+
+.main {
+  margin-left: 22%;
+}
